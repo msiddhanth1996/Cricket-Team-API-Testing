@@ -1,1 +1,8 @@
-SQLite format 3
+//SQLite format 3
+CREATE TABLE cricket_team(
+username TEXT,
+      name TEXT,
+      password TEXT,
+      gender TEXT,
+      location TEXT
+);

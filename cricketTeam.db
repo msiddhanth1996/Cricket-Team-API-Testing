@@ -1,8 +1,8 @@
 //SQLite format 3
 CREATE TABLE cricket_team(
 username TEXT,
-      name TEXT,
-      password TEXT,
-      gender TEXT,
-      location TEXT
+      player_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  player_name TEXT,
+  jersey_number INT,
+  role TEXT
 );
